@@ -2,11 +2,10 @@
   "name": "speck-runner",
   "main": "./lib/speck-runner",
   "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "description": "Run SpeckJS tests in Atom",
+  "keywords": ["SpeckJS", "Atom", "tape", "runner"],
   "activationCommands": {
-    "atom-workspace": "speck-runner:toggle"
+    "atom-workspace": "speck-runner:run"
   },
   "repository": "https://github.com/atom/speck-runner",
   "license": "MIT",
@@ -14,5 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "speckjs": "^1.1.1"
   }
 }

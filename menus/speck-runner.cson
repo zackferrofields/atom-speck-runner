@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Toggle speck-runner'
-      'command': 'speck-runner:toggle'
+      'command': 'speck-runner:run'
     }
   ]
 'menu': [
@@ -13,8 +13,8 @@
       'label': 'speck-runner'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'speck-runner:toggle'
+          'label': 'Run'
+          'command': 'speck-runner:run'
         }
       ]
     ]
