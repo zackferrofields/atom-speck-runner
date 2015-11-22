@@ -3,7 +3,12 @@
   "main": "./lib/speck-runner",
   "version": "0.0.0",
   "description": "Run SpeckJS tests in Atom",
-  "keywords": ["SpeckJS", "Atom", "tape", "runner"],
+  "keywords": [
+    "SpeckJS",
+    "Atom",
+    "tape",
+    "runner"
+  ],
   "activationCommands": {
     "atom-workspace": "speck-runner:run"
   },
@@ -13,6 +18,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "speckjs": "^1.1.1"
+    "loophole": "^1.1.0",
+    "speckjs": "^1.1.1",
+    "tape": "^4.2.2"
   }
 }
