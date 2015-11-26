@@ -3,7 +3,7 @@
 ## About
 
 Speck Runner is a **Comment Driven Test Runner**  
-Comments are converted to unit-tests, via via [SpeckJS](https://github.com/speckjs/speckjs/),
+Comments are converted to unit-tests, via [SpeckJS](https://github.com/speckjs/speckjs/),
 and run locally in Atom.
 
 ## Usage
