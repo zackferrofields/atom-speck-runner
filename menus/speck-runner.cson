@@ -10,7 +10,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'speck-runner'
+      'label': 'Speck Runner'
       'submenu': [
         {
           'label': 'Run'
