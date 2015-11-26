@@ -18,9 +18,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "loophole": "^1.1.0",
     "speckjs": "^1.1.1",
-    "tape": "^4.2.2",
-    "through": "^2.3.8"
+    "tape": "^4.2.2"
   },
   "devDependencies": {}
 }
