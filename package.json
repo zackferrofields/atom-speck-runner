@@ -22,5 +22,15 @@
     "speckjs": "^1.1.1",
     "tape": "^4.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
 }
