@@ -8,11 +8,19 @@ and run locally in Atom.
 
 ## Usage
 
+![Screenshot](zackferrofields/atom-speck-runner/develop/resources/atom-speck-runner.gif?raw=true)
+
 - `ctrl-alt-r`
 - From the Menu Bar, select Packages > Speck Runner > Run
 - From Atom's Command Palette, enter Speck Runner:Run
 
 ### Installation
+
+```
+apm install speck-runner
+```
+
+or
 
 ```
   $ git clone https://github.com/zackferrofields/atom-speck-runner.git
@@ -25,4 +33,3 @@ and run locally in Atom.
 ## ToDo
 
 - transform es2015 using `.babelrc`
-- add usage gif
