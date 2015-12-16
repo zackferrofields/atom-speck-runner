@@ -8,7 +8,7 @@ and run locally in Atom.
 
 ## Usage
 
-![Screenshot](zackferrofields/atom-speck-runner/develop/resources/atom-speck-runner.gif?raw=true)
+![Screenshot](https://raw.githubusercontent.com/zackferrofields/atom-speck-runner/master/resources/atom-speck-runner.gif)
 
 - `ctrl-alt-r`
 - From the Menu Bar, select Packages > Speck Runner > Run
