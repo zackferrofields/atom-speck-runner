@@ -12,7 +12,7 @@
   "activationCommands": {
     "atom-workspace": "speck-runner:run"
   },
-  "repository": "https://github.com/atom/speck-runner",
+  "repository": "https://github.com/zackferrofields/atom-speck-runner",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
