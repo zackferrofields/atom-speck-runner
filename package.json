@@ -1,6 +1,6 @@
 {
   "name": "speck-runner",
-  "main": "./lib/speck-runner",
+  "main": "./lib/main",
   "version": "0.0.0",
   "description": "Run SpeckJS tests in Atom",
   "keywords": [
@@ -12,15 +12,26 @@
   "activationCommands": {
     "atom-workspace": "speck-runner:run"
   },
-  "repository": "https://github.com/atom/speck-runner",
+  "repository": "https://github.com/zackferrofields/atom-speck-runner",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "esprima": "^2.7.0",
+    "loophole": "^1.1.0",
     "speckjs": "^1.1.1",
-    "tape": "^4.2.2",
-    "through": "^2.3.8"
+    "tape": "^4.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
 }
